@@ -1,0 +1,23 @@
+{
+  "name": "web-crawler-http",
+  "version": "1.0.0",
+  "description": "Project for the Learn HTTP course",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guilherme-Daneliv23/web-crawler-http.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guilherme-Daneliv23/web-crawler-http/issues"
+  },
+  "homepage": "https://github.com/Guilherme-Daneliv23/web-crawler-http#readme",
+  "dependencies": {
+    "jest": "^30.1.2"
+  }
+}
