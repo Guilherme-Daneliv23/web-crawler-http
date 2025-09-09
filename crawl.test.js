@@ -1,6 +1,8 @@
 const {normalizeURL, getURLsFromHTML} = require('./crawl')
 const {test, expect} = require('@jest/globals')
 
+
+
 test('normalizeURL strip protocol', () => {
     const input = 'https://blog.boot.dev/path'
     const actual = normalizeURL(input)
